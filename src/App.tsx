@@ -9,6 +9,7 @@ import Circle from "./pages/Circle";
 import Discussion from "./pages/Discussion";
 import Event from "./pages/Event";
 import Rideshare from "./pages/Rideshare";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -17,14 +18,20 @@ function App() {
         <Header></Header>
       </div>
       <div className="Content">
-        <div className="Sidebar">
-          <Sidebar></Sidebar>
-        </div>
+      {location.pathname !== '/' && (
+          <div className="Sidebar">
+            <Sidebar />
+          </div>
+        )}
         <Routes>
-          <Route path="/" element={<Discussion />} />
+          <Route path="/discussion" element={<Discussion />} />
           <Route path="/event" element={<Event />} />
           <Route path="/circle" element={<Circle />} />
           <Route path="/rideshare" element={<Rideshare />} />
+        </Routes>
+        <Routes>
+          <Route path="/" element={<Login />} /> {/* SignUp page route */}
+          {/* Add more routes as needed */}
         </Routes>
       </div>
     </>

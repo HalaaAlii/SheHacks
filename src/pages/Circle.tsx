@@ -1,7 +1,10 @@
+import SponsorSpacePage from "../components/SponsorSpacePage";
 import { Fragment } from "react";
 function Circle() {
     return(
-        <div>this is circle page</div>
+        <>
+       <SponsorSpacePage />
+        </>
     )
 
 }

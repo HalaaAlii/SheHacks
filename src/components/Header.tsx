@@ -27,7 +27,7 @@ function Header() {
               <button className="btn btn-outline-success me-2" type="submit">
                 Search
               </button>
-              <button type="button" className="btn btn-secondary">logout</button>
+              <button type="button" className="btn btn-secondary me-2">sign out</button>
             </form>
           </div>
         </nav>

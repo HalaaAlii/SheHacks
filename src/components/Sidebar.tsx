@@ -55,14 +55,14 @@ function Sidebar() {
             alt="Profile"
           />
           </Link>
-          <Link to="/" className={`nav-link ${activeTab === "messages" ? "active" : ""}`} onClick={() => handleTabClick("messages")}>
+          <Link to="/discussion" className={`nav-link ${activeTab === "messages" ? "active" : ""}`} onClick={() => handleTabClick("messages")}>
           <img
             src="/public/images/event.png"
             style={imageStyle}
             alt="Messages"
           />
           </Link>
-          <Link to="/" className={`nav-link ${activeTab === "settings" ? "active" : ""}`} onClick={() => handleTabClick("settings")}>
+          <Link to="/circle" className={`nav-link ${activeTab === "settings" ? "active" : ""}`} onClick={() => handleTabClick("settings")}>
           <img
             src="/public/images/circle.png"
             style={imageStyle}
