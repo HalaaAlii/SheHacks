@@ -5,6 +5,7 @@
     height: 60px; /* A height that accommodates content */
     z-index: 1000; /* Ensure the header is above other content */
     display: flex;
+    
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
@@ -12,9 +13,11 @@
   }
   
   .navbar {
+    
     flex-grow: 1;
     display: flex;
     align-items: center;
+
   }
   
   .navbar a {

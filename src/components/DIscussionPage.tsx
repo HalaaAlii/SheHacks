@@ -1,5 +1,6 @@
 import React from 'react';
-import './DiscussionPage.css'; // Import the CSS file for styling
+import './DiscussionPage.css'; 
+import { FaHome } from "react-icons/fa";
 
 function DiscussionPage() {
   return (
@@ -16,7 +17,7 @@ function DiscussionPage() {
           <div className="discussion-actions">
             <button>Like</button>
             <button>Comment</button>
-            <button>Reply</button>
+            <button>Share</button>
           </div>
         </div>
         <div className="discussion">

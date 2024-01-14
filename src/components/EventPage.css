@@ -19,10 +19,13 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
+
+
 .event h3 {
   color: #ff1493; /* Vibrant pink for headings */
   margin-bottom: 15px;
 }
+
 
 ul {
   list-style: none;
@@ -41,3 +44,4 @@ ul li {
 ul li:hover {
   transform: translateX(10px); /* Slight shift to the right on hover */
 }
+

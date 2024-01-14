@@ -57,14 +57,14 @@ function Sidebar() {
           </Link>
           <Link to="/" className={`nav-link ${activeTab === "messages" ? "active" : ""}`} onClick={() => handleTabClick("messages")}>
           <img
-            src="/public/images/girlsDiscussion_icon.png"
+            src="/public/images/event.png"
             style={imageStyle}
             alt="Messages"
           />
           </Link>
           <Link to="/" className={`nav-link ${activeTab === "settings" ? "active" : ""}`} onClick={() => handleTabClick("settings")}>
           <img
-            src="/public/images/circle.jpg"
+            src="/public/images/circle.png"
             style={imageStyle}
 
             alt="Settings"
