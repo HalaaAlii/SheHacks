@@ -1,5 +1,7 @@
 import React, { useState } from "react";
- 
+import '../App.css'
+import {Link} from "react-router-dom"
+
 function Sidebar() {
   const [activeTab, setActiveTab] = useState("home");
 
@@ -38,34 +40,36 @@ function Sidebar() {
           role="tablist"
           aria-orientation="vertical"
         >
+          <Link to="/rideshare" className={`nav-link ${activeTab === "home" ? "active" : ""}`} onClick={() => handleTabClick("home")}>
           <img
             src="/public/images/rideshare_icon.png"
             style={imageStyle}
-            className={`nav-link ${activeTab === "home" ? "active" : ""}`}
-            onClick={() => handleTabClick("home")}
+            
             alt="Home"
           />
+          </Link>
+          <Link to="/event" className={`nav-link ${activeTab === "profile" ? "active" : ""}`} onClick={() => handleTabClick("profile")}>
           <img
             src="/public/images/events_icon.jpg"
             style={imageStyle}
-            className={`nav-link ${activeTab === "profile" ? "active" : ""}`}
-            onClick={() => handleTabClick("profile")}
             alt="Profile"
           />
+          </Link>
+          <Link to="/" className={`nav-link ${activeTab === "messages" ? "active" : ""}`} onClick={() => handleTabClick("messages")}>
           <img
             src="/public/images/girlsDiscussion_icon.png"
             style={imageStyle}
-            className={`nav-link ${activeTab === "messages" ? "active" : ""}`}
-            onClick={() => handleTabClick("messages")}
             alt="Messages"
           />
+          </Link>
+          <Link to="/" className={`nav-link ${activeTab === "settings" ? "active" : ""}`} onClick={() => handleTabClick("settings")}>
           <img
             src="/public/images/circle.jpg"
             style={imageStyle}
-            className={`nav-link ${activeTab === "settings" ? "active" : ""}`}
-            onClick={() => handleTabClick("settings")}
+
             alt="Settings"
           />
+         </Link>
         </div>
         <div className="tab-content" id="v-pills-tabContent">
           <div

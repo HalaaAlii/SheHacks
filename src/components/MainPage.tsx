@@ -1,9 +1,12 @@
-import { Fragment } from "react";
-function MainPage() {
-  return (
-    <>
-         
-    </>
-  );
+import './MainPage.css'
+ 
+
+function MainPage(){
+    return(
+        <>
+       
+        </>
+
+    );
 }
 export default MainPage;

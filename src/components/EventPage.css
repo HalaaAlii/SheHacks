@@ -1,0 +1,43 @@
+.event-page {
+  position: relative;
+  padding: 20px;
+  left: 220px;
+  font-family: 'Arial', sans-serif; /* Choose a font that fits the cute theme */
+  color: #444; /* Darker text for better readability */
+}
+
+.trending-events, .other-events {
+  margin-bottom: 30px;
+}
+
+.event {
+  background-color: #ffe4e1; /* Light pink background */
+  padding: 15px;
+  border: 2px solid #ff69b4; /* Darker pink border */
+  border-radius: 10px; /* More pronounced border-radius */
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.event h3 {
+  color: #ff1493; /* Vibrant pink for headings */
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #fff0f5; /* Soft pink for list items */
+  padding: 10px;
+  border-radius: 8px; /* Rounded corners for list items */
+  margin-bottom: 10px;
+  border-left: 5px solid #ff69b4; /* Accent border on the left */
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+ul li:hover {
+  transform: translateX(10px); /* Slight shift to the right on hover */
+}

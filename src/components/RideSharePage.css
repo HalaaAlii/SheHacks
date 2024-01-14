@@ -1,0 +1,76 @@
+.rideshare-container {
+  position: relative;
+  padding: 20px;
+  left: 220px;
+  font-family: 'Arial', sans-serif; /* Choose a cute and readable font */
+}
+
+.rideshare-section {
+  width: 48%;
+  border: 2px solid #ff69b4; /* Soft pink border */
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #fff0f5; /* Light pink background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.rideshare-section h2 {
+  color: #ff1493; /* Vibrant pink for headings */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.posts p {
+  background-color: #ffe4e1; /* Lighter pink for posts */
+  padding: 10px;
+  border-radius: 8px; /* More rounded corners */
+  margin-bottom: 10px;
+  border-left: 5px solid #ff69b4; /* Accent border on the left */
+}
+
+.form-container {
+  position: fixed;
+  bottom: 0;
+  left: 220px;
+  right: 10px;
+  background-color: #fff0f5; /* Light pink background */
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px;
+}
+
+.form-section {
+  width: 45%;
+  flex-direction: column;
+}
+
+.form-section h3 {
+  text-align: center;
+  color: #ff1493; /* Vibrant pink for form headings */
+  margin-bottom: 10px;
+}
+
+.form-section input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ff69b4; /* Soft pink border */
+  border-radius: 4px;
+  background-color: #ffe4e1; /* Light pink background for input fields */
+}
+
+.form-section button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff69b4; /* Soft pink for buttons */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  background-color: #ff1493; /* Darker pink on hover */
+}

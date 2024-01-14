@@ -1,5 +1,7 @@
 import { Fragment } from "react";
 import { FaHome } from "react-icons/fa";
+import {Link} from "react-router-dom"
+import '../App.css'
 function Header() {
   const headerStyle = {
     backgroundColor: '#ffffff',
@@ -12,6 +14,7 @@ function Header() {
     <>
       <div style={headerStyle} className="sticky-bottom">
         <nav className="navbar bg-body-tertiary">
+          
           <div className="container-fluid">
             <a className="navbar-brand"> <FaHome navbar-brand className=" me-2"/></a>
             <form className="d-flex" role="search">

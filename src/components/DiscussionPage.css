@@ -1,0 +1,90 @@
+  .discussion-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    padding: 20px;
+    left: 220px;
+
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex-grow: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #ff1493;
+  }
+  
+  .discussions .discussion {
+    background-color: #fff0f5;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .discussion-actions {
+    margin-top: 10px;
+  }
+  
+  .discussion-actions button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .discussion-actions button:hover {
+    background-color: #ff1493;
+  }
+  
+  .post-discussion {
+  background-color: #fff0f5;
+  padding: 15px;
+  border-radius: 5px;
+  }
+  
+  .post-discussion textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  height: 100px; /* Adjustable based on preference */
+  }
+  
+  .post-discussion button {
+  width: 100%;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+  
+  .post-discussion button:hover {
+  background-color: #ff1493;
+  }
+  
