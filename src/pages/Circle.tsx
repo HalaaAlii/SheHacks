@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 function Circle() {
   useEffect(() => {
-    window.location.href = 'https://sillygoose.vercel.app/'; 
+    window.open('https://circlechatbot.vercel.app/', '_blank');
   }, []);
 
   return null; // Render nothing or a loading indicator

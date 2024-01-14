@@ -5,10 +5,10 @@ import '../App.css'
 function Header() {
   const headerStyle = {
     backgroundColor: '#ffffff',
-    top: 0,           // Align the header to the top of the viewport
+    top: 0,           
     width: '100%', 
-    height:'20px',   // Ensure the header spans the full width
-    zIndex: 1000,     // Ensure the header is above other content
+    height:'20px',   
+    zIndex: 1000,     
   };
   return (
     <>
