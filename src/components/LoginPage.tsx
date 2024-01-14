@@ -11,9 +11,15 @@ import {
   MDBIcon
 }
 from 'mdb-react-ui-kit';
-
+import { useNavigate } from 'react-router-dom';
 
 function App() {
+  const navigate = useNavigate();
+
+  const handleSignUpClick = () => {
+    // Perform any sign up logic here, if necessary
+    navigate('/discussion');
+  };
   return (
     <MDBContainer fluid>
 
@@ -44,7 +50,7 @@ function App() {
             <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Subscribe to our newsletter' />
           </div>
 
-          <MDBBtn className='w-100 mb-4'>sign up</MDBBtn>
+          <MDBBtn className='w-100 mb-4' onClick={handleSignUpClick}>sign up</MDBBtn>
 
           <div className="text-center">
 
