@@ -9,7 +9,7 @@ import Circle from "./pages/Circle";
 import Discussion from "./pages/Discussion";
 import Event from "./pages/Event";
 import Rideshare from "./pages/Rideshare";
-import Login from "./pages/Login";
+import Login from "./pages/login";
 
 function App() {
   return (
