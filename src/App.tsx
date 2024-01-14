@@ -12,7 +12,7 @@ import Rideshare from "./pages/Rideshare";
 import Login from "./pages/login";
 
 function App() {
-  const location = useLocation();
+const location = useLocation();
   return (
     <>
       <div className="Header">
@@ -31,7 +31,7 @@ function App() {
           <Route path="/rideshare" element={<Rideshare />} />
         </Routes>
         <Routes>
-          <Route path="/" element={<Login />} /> 
+          <Route path="/" element={<Login />} />
           {/* Add more routes as needed */}
         </Routes>
       </div>
