@@ -26,7 +26,7 @@ function DiscussionPage() {
           <div className="discussion-actions">
             <button>Like</button>
             <button>Comment</button>
-            <button>Reply</button>
+            <button>Share</button>
           </div>
         </div>
         {/* Add more discussions as needed */}
